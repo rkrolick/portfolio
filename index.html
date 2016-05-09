@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ryan Krolick | Web Developer</title>
+  <!-- CSS -->
+  <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png"
+ href="img/icon.png" />
+</head>
+<body>
+  <!-- Logo -->
+  <header>
+  <img class="header-bg" src="img/bg.jpg" alt="bg">
+  <div class="nav-bar row">
+    <div class="whoiam col s6">
+      <div class="row">
+        <div class="icon col s2"><img src="img/icon.png" alt="icon"></div>
+        <div class="whoiamText col s10">
+          <div class="name">RYAN KROLICK</div>
+          <div class="title">Full-Stack Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Nav -->
+    <div class="header-nav col s6 right-align">
+      <ul class="nav-list">
+        <li><a class="active" href="#home">HOME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <div class="main">
+    <!-- Brand Statement -->
+    <div class="brand">
+      <h1 class="brand-title">Coding is in my DNA</h1>
+      <p class="brand-paragraph"> I'm a versatile developer with a computer science degree who loves to solve complex problems, either with a team or solo. My research skills and love of learning, combined with my education and experience, make me the developer your project is looking for.<p>
+    </div>
+  </div>
+  <!-- Projects -->
+  <a name="projects"></a>
+  <div class="everything-else">
+    <div class="projects-container container">
+      <div class="project row valign-wrapper">
+        <img class="project-img col s3" src="img/p1.png">
+        <div class="col s8">
+          <h2 class="project-title">Pac Man Memory Game</h2>
+          <p class="project-desc">My first project for General Assembly was a memory game.  I decided I wanted the game to be have a little more action than just clicking on cards, so I added a player character and computer AI. Aside from using jQuery to handle DOM manipulation, the game was created entirely in vanilla Javascript (without using canvas).  The most challenging part of this project was developing a collision detection engine using only JS.</p>
+          <ul class="project-tags">
+            <li class="tech-tag">HTML</li>
+            <li class="tech-tag">JavaScript</li>
+            <li class="tech-tag">JQuery</li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="project row valign-wrapper">
+        <img class="project-img col s3" src="img/p2.png">
+        <div class="col s8">
+          <h2 class="project-title">Factorio Map Share</h2>
+          <p class="project-desc">Factorio is a great game where players are tasked with building a logistical dreamland on an alien planet.  The game tasks players to creatively solve problems. But why do that when you can just download another player's hard work?  Using Rails, players can log into this app to share and download save games.  The coolest feature of this app is the screenshots created when a map is uploaded.  Using the Ruby Gems paperclip and rubyzip, this app will automatically take the preview.png embeded in a map's zip file and display it on the map's download page.</p>
+          <ul class="project-tags">
+            <li class="tech-tag">Ruby</li>
+            <li class="tech-tag">Ruby on Rails</li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="project row valign-wrapper">
+        <img class="project-img col s3" src="img/p3.png">
+        <div class="col s8">
+          <h2 class="project-title">Hand-Off</h2>
+          <p class="project-desc">Did you know that when doctors change shifts, patient information is still passed back and forth on clipboards? Luckily for our group project we had a medical resident on our team who had a vision of a better way.  Using a Rails backend, and an Angular front end, we developed a website that allows physicians to read, write, and edit a patient's chart online.  Complete with a visual readout of lab results, and API calls to fetch diagnosis information, our app was designed to keep doctors informed of their patient's status, without the outdated clipboards. </p>
+          <ul class="project-tags">
+            <li class="tech-tag">Angular</li>
+            <li class="tech-tag">Ruby on Rails</li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="project row valign-wrapper">
+        <img class="project-img col s3" src="img/p4.png">
+        <div class="col s8">
+          <h2 class="project-title">Rocket Beasts</h2>
+          <p class="project-desc">I used Phaser.io and canvas to create a game similar to the Amiga classic Tanx.  Then, to take my project one step further, I built a multiplayer server using NodeJS and websockets.  The end result is a game where you can launch rockets at other live players, in real-time, all in your web browser.</p>
+          <ul class="project-tags">
+            <li class="tech-tag">Phaser.io</li>
+            <li class="tech-tag">Node JS</li>
+            <li class="tech-tag">Web Sockets</li>
+          </ul>
+        </div>
+      </div>
+
+  </div>
+  <!-- Contact -->
+  <a name="contact"></a>
+  <div class="contact row">
+    <div class="social col s2 push-s1">
+      <div class="social-pic row">
+        <img class="my-pic circle center-align" src="img/me.jpg">
+      </div>
+      <div class="social-icons row">
+        <!-- linkedin -->
+        <a href="https://linkedin.com/in/rkrolick" target="_blank">
+          <svg viewBox="0 0 24 24" class="col s4">
+            <path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+          </svg>
+        </a>
+        <!-- Github -->
+        <a href="https://github.com/rkrolick" target="_blank">
+          <svg viewBox="0 0 24 24" class="col s4">
+            <path d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H14.85C14.5,21.92 14.5,21.24 14.5,21V18.26C14.5,17.33 14.17,16.72 13.81,16.41C16.04,16.16 18.38,15.32 18.38,11.5C18.38,10.39 18,9.5 17.35,8.79C17.45,8.54 17.8,7.5 17.25,6.15C17.25,6.15 16.41,5.88 14.5,7.17C13.71,6.95 12.85,6.84 12,6.84C11.15,6.84 10.29,6.95 9.5,7.17C7.59,5.88 6.75,6.15 6.75,6.15C6.2,7.5 6.55,8.54 6.65,8.79C6,9.5 5.62,10.39 5.62,11.5C5.62,15.31 7.95,16.17 10.17,16.42C9.89,16.67 9.63,17.11 9.54,17.76C8.97,18 7.5,18.45 6.63,16.93C6.63,16.93 6.1,15.97 5.1,15.9C5.1,15.9 4.12,15.88 5,16.5C5,16.5 5.68,16.81 6.14,17.97C6.14,17.97 6.73,19.91 9.5,19.31V21C9.5,21.24 9.5,21.92 9.14,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2Z" />
+          </svg>
+        </a>
+        <!-- email -->
+        <a href="mailto:rkrolick@gmail.com">
+          <svg viewBox="0 0 24 24" class="col s4">
+            <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="col s8 push-s2" id="contact">
+        <form action="mailer.php" id="contact-form" method="post" name="contact-form">
+
+          <!-- Input fields -->
+          <div class="row">
+            <input name="name" placeholder="Name" required="" type="text">
+            <input name="email" placeholder="Email" required="" type="email">
+            <input name="phone" placeholder="Phone" required="" type="text">
+          </div>
+
+          <!-- Message -->
+          <div class="buffer-bottom">
+              <textarea class="message" name="message" placeholder="Message" required="" rows="6"></textarea>
+          </div>
+          <span id="submit-response"></span>
+
+          <!-- Submit -->
+          <input class="button" type="submit" value="Contact Me!">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
