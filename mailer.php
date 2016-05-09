@@ -1,7 +1,7 @@
 <?php
-$name = $_post["name"];
-$phone = $_post["phone"];
-$email = $_post["email"];
-$message = $_message["message"];
+$name = $_POST["name"];
+$phone = $_POST["phone"];
+$email = $_POST["email"];
+$message = $_POST["message"];
 echo "Name: ", $name, " Email: ", $email, " Phone: ", $phone, " Message: ", $message;
 ?>
